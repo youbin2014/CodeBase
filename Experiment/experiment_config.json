@@ -1,0 +1,37 @@
+{
+    "cifar10_additional_data": {
+        "folder": "./results/cifar10_additional_data",
+        "dataset": "cifar10plus",
+        "model": "resnet101",
+        "load_weights": false,
+        "batch_size": 640,
+        "num_worker": 8,
+        "epochs": 200,
+        "optimizer": "SGD",
+        "learning_rate": 0.01,
+        "momentum": 0.9,
+        "weight_decay": 5e-4,
+        "scheduler_name": "CosineAnnealingLR",
+        "criterion": "crossentropy",
+        "device": "cuda",
+        "gpus": [2]
+    },
+    "cifar10_original": {
+        "folder": "./results/cifar10_original",
+        "dataset": "cifar10",
+        "model": "resnet101",
+        "load_weights": false,
+        "batch_size": 640,
+        "num_worker": 8,
+        "epochs": 200,
+        "optimizer": "SGD",
+        "learning_rate": 0.01,
+        "momentum": 0.9,
+        "weight_decay": 5e-4,
+        "scheduler_name": "CosineAnnealingLR",
+        "criterion": "crossentropy",
+        "device": "cuda",
+        "gpus": [2]
+    }
+
+}
